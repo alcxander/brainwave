@@ -1,6 +1,7 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import PTest from "./components/Ptest";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Hero />
       </div>
       <ButtonGradient />
+      <PTest />
     </>
   );
 };
