@@ -92,7 +92,7 @@ const Hero = () => {
               alt="hero"
             />
           </div>
-          <BackgroundCircles parallaxRef={parallaxRef} />
+          <BackgroundCircles />
         </div>
       </div>
     </Section>

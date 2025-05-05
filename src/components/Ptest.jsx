@@ -7,7 +7,6 @@ const PTest = () => {
 
   useEffect(() => {
     // Ensure this only runs on the client (after DOM is mounted)
-    console.log("we're here its now true");
     setIsClient(true);
   }, []);
 
